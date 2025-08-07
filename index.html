@@ -74,29 +74,37 @@
             </div>
           </div>
 
-          <div class="nav-center">
-            <div class="nav-menu">
-              <a href="#">Home</a>
-              <a href="#">Shop</a>
-              <a href="#">Contact</a>
-            </div>
+          <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+
+          <div class="nav-center" id="menu-center-active">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
           </div>
 
-          <div class="nav-right">
-            <a href="#"
-              ><img
-                width="30"
-                height="30"
-                src="https://img.icons8.com/windows/32/1A1A1A/user-male-circle.png"
-                alt="gender-neutral-user"
-            /></a>
-            <a href="#"
-              ><img
-                width="30"
-                height="30"
-                src="https://img.icons8.com/parakeet-line/48/1A1A1A/shopping-cart.png"
-                alt="shopping-cart"
-            /></a>
+          <div class="nav-right" id="menu-right-active">
+            <ul>
+              <li>
+                <a href="#"
+                  ><img
+                    width="30"
+                    height="30"
+                    src="https://img.icons8.com/windows/32/1A1A1A/user-male-circle.png"
+                    alt="gender-neutral-user"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    width="30"
+                    height="30"
+                    src="https://img.icons8.com/parakeet-line/48/1A1A1A/shopping-cart.png"
+                    alt="shopping-cart"
+                /></a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -280,16 +288,24 @@
           <div class="footer-social">
             <h3>Follow Us</h3>
             <a href="https://www.facebook.com" target="_blank"
-              ><img src="https://img.icons8.com/color/48/facebook.png" alt="Facebook"
+              ><img
+                src="https://img.icons8.com/color/48/facebook.png"
+                alt="Facebook"
             /></a>
             <a href="https://www.instagram.com" target="_blank"
-              ><img src="https://img.icons8.com/color/48/instagram-new.png" alt="Instagram"
+              ><img
+                src="https://img.icons8.com/color/48/instagram-new.png"
+                alt="Instagram"
             /></a>
             <a href="https://www.tiktok.com" target="_blank"
-              ><img src="https://img.icons8.com/color/48/tiktok.png" alt="Tiktok"
+              ><img
+                src="https://img.icons8.com/color/48/tiktok.png"
+                alt="Tiktok"
             /></a>
             <a href="https://line.me" target="_blank"
-              ><img src="https://img.icons8.com/color/48/line-me.png" alt="Line"
+              ><img
+                src="https://img.icons8.com/color/48/line-me.png"
+                alt="Line"
             /></a>
           </div>
         </div>
@@ -300,5 +316,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
